@@ -4,9 +4,11 @@ In this exercise you will learn how to write tests for a class that doesn't yet 
 This scenario comes up when you want to give someone an exercise that involves
 writing classes, fields, methods, etc...
 
-## Employee Class
+## Step One: Create Employee Class
 
-### Step One: Create a First Name field
+Create an Employee class in the `com.abc` package.
+
+### Step Two: Create a First Name field
 
 - firstName
     - access modifier: private
@@ -14,7 +16,7 @@ writing classes, fields, methods, etc...
     - getter: getFirstName()
     - setter: setFirstName(String firstName)
 
-### Step Two: Create a Last Name field
+### Step Three: Create a Last Name field
     
 - lastName
     - access modifier: private
@@ -22,11 +24,11 @@ writing classes, fields, methods, etc...
     - getter: getLastName()
     - setter: getLastName(String lastName)
 
-### Step Three: Create a constructor
+### Step Four: Create a constructor
 
 The constructor should take in firstName and lastName as arguments and set each field.
 
-### Step Four: Create a new method
+### Step Five: Create a new method
 
 - getFullName()
     - returns a String
